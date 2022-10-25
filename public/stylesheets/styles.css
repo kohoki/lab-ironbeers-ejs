@@ -5,3 +5,26 @@ dark-blue: #0a2c42;
 grey: #bfbfbf;
 font-family: Arial, Helvetica, sans-serif;
 */
+
+.images {
+    width: 100px;
+}
+.randmom {
+    display: flex;
+}
+.randomInfo {
+    width: 400px;
+}
+.divImage {
+    display: flex;
+    padding: 30px;
+}
+.allBeersList {
+    display: flex;
+}
+
+body {
+
+background-color: aqua;
+font-family: Arial, Helvetica, sans-serif;
+}

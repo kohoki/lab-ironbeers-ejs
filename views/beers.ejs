@@ -1,8 +1,8 @@
-<ul>
+<ul >
     <% allTheBeers.forEach(beer=> { %>
-    <li>
-        <div>
-            <img src="<%- beer.image_url %>">
+    <li class="allBeersList">
+        <div class="divImage">
+            <img class="images" src="<%- beer.image_url %>">
         </div>
         <div>
             <h2><%- beer.name %></h2>
@@ -15,5 +15,3 @@
    <% }) %>
 
 </ul>
-
-<!-- <%- allTheBeers[0].name %> -->
