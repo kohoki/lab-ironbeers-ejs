@@ -1,0 +1,19 @@
+<ul>
+    <% allTheBeers.forEach(beer=> { %>
+    <li>
+        <div>
+            <img src="<%- beer.image_url %>">
+        </div>
+        <div>
+            <h2><%- beer.name %></h2>
+            <p><%- beer.description %></p>
+            <p><%- beer.tagline %></p>
+            <p><%- beer.food_pairing %></p>
+        </div>
+    </li>
+
+   <% }) %>
+
+</ul>
+
+<!-- <%- allTheBeers[0].name %> -->
